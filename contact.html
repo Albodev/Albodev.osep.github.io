@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!--Preloader-->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader_bar"></div>
+            <div class="loader_bar"></div>
+            <div class="loader_bar"></div>
+            <div class="loader_bar"></div>
+            <div class="loader_bar"></div>
+            <div class="loader_ball"></div>
+        </div>
+    </div>
+    <!--header-->
+    <div class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="uploads/logo.jpg" alt="">
+            </a>
+        </div>
+           <div class="logo-description">
+                    <a href="#">Organization for Sustainable<br>Environmental Protection.</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+            </ul>
+            <div id="toggle">
+                <div class="span" id="one"></div>
+                <div class="span" id="two"></div>
+                <div class="span" id="three"></div>
+           </div>
+        </div>
+    </div>
+
+    <!--landing page-->
+    <section id="landing">
+        <div class="row-container">
+            <div class="container-content">
+                <h4>Get in Touch with Us</h4>
+            </div>
+        </div>
+    </section>
+    <section id="contact-content">
+        <div class="container-wrap">
+            <div class="container-side-1">
+                <h1>Contact Us</h1>
+                <p>You can contact us any way that is convenient for you. We are available 24/7 phone or email.You can also us a quick contact form below or visit our office personally.</p>
+                <div class="contact-form">
+                   <form name="contact_form" method="POST" action="sendEmail.php">
+                        <div class="row">
+                           <div class="sect">
+                              <label for="firstname">First name <span>*</span></label><br>
+                              <input type="text" name="firstName" class="form-control">
+                           </div>
+                           <div class="sect">
+                              <label for="lastname">Last name <span>*</span></label><br>
+                              <input type="text" name="lastName" class="form-control">
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="sect">
+                                <label for="email">Email <span>*</span></label><br>
+                                <input type="email" name="email" class="form-control">
+                           </div>
+                           <div class="sect">
+                               <label for="phone">Phone</label><br>
+                               <input type="phone" name="phone" class="form-control">
+                           </div>
+                        </div>
+                        <div class="message">
+                            <label for="message">Message <span>*</span></label><br>
+                            <textarea name="comments" class="form-control-2" cols="30" rows="7"></textarea>
+                        </div>
+                        <div class="send-mess">
+                            <input type="submit" class="btn-message" name="submit" value="Send Message">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-side-2">
+               <div class="address sect">
+                   <h2 class="lead">Address</h2>
+                   <p><span><i class="fa fa-map-marker"></i></span>2130 Mawego Street, Lida, IL
+                    94117-1080 KENYA</p>
+               </div>
+               <div class="phone sect">
+                   <h2 class="lead">Phone</h2>
+                   <p><span><i class="fa fa-phone"></i></span>0728110935</p>
+                   <p><span><i class="fa fa-phone"></i></span>0708941520</p>
+               </div>
+               <div class="email sect">
+                   <h2 class="lead">Email</h2>
+                   <p><span><i class="fa fa-envelope-o"></i></span>osepke.org@gmail.com</p>
+               </div>
+               <div class="opening sect">
+                   <h2 class="lead">
+                      Opening Hours
+                   </h2>
+                   <p><span><i class="fa fa-calendar"></i></span>Mon - Fri: 8am - 5pm</p>
+               </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-row">
+            <div class="small-content one">
+                <a href="#">osep</a>
+                <p>Self-help and bottom up approach towards environmental conservation and protection</p>
+                <h5>Be vigilant.</h5>
+            </div>
+            <div class="small-content desc">
+                <h2>Explore</h2>
+                <ul>
+                    <li><a>home <span class="arrow-link">&#10137;</span></a></li>
+                    <li><a>about <span class="arrow-link">&#10137;</span></a></li>
+                    <li><a>events <span class="arrow-link">&#10137;</span></a></li>
+                    <li><a>resources <span class="arrow-link">&#10137;</span></a></li>
+                </ul>
+            </div>
+            <div class="small-content">
+                <h2>Visit</h2>
+                <p class="lead">Lida,Wang' chieng' ward</p>
+                <p class="lead"><span>&phone;</span>0728110935</p>
+                <p class="lead"><span>&phone;</span>0708941520</p>
+                <p class="lead"><span>&#9993;</span>osepke.org@gmail.com</p>
+            </div>
+            <div class="small-content social">
+                <h2>Social media</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/Osepke.Org"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/OSEP_ke"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright-section">
+            <p>All rights reserved &COPY; 
+                <span id="copyright">
+                    <script>document.write(new Date().getFullYear());</script>
+                </span> Okundistar&trade;</p>
+        </div>
+    </footer>
+    <!--scripts-->
+    <script src="js/all.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
