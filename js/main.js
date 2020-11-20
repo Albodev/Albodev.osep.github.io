@@ -4,15 +4,6 @@ $(function(){
         $("#preloader").on(500).fadeOut();
         $(".preloader").on(600).fadeOut("slow");
     });
-
-    //toggle navigation
-    var menu = $(".nav ul");
-
-    $("#toggle").on("click",function(e){
-        e.preventDefault();
-        menu.slideToggle("slow");
-    });
-
    
     $(window).on("resize",function(){
         if($(this).width() > 968){
@@ -45,7 +36,14 @@ let delay = setTimeout(()=>{
 },7000)
 
 */
+//toggle implementation
+let toggleBtn = document.querySelector("#toggle");
+let nav = document.querySelector(".nav ul");
 
+toggleBtn.addEventListener("click",(e)=>{
+    e.preventDefault();
+    nav.classList.toggle('hide');
+});
 
 let images = document.querySelectorAll(".image");
 
